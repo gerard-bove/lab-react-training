@@ -3,14 +3,17 @@
   margin: 5px;
 }
 
-.card {
+.user-card {
   border: 2px solid black;
   padding: 4px;
+  width: 400px;
   display: flex;
   flex-direction: row;
 }
 
-
+.user-card img {
+  height: '120px'
+}
 
 .negrita {
   font-weight: 700;
@@ -20,18 +23,68 @@ p {
   margin: 0;
 }
 
+.box-color {
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.box-color p {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
 .credit-card {
   border-radius: 10px;
-  width: 250px;
+  width: 280px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .card-image {
-  height: 60px;
+  height: 20px;
   margin-right: 5px;
   width: fit-content;
 }
 
 .expire-bank {
+  margin: 0;
+}
+
+.driver-card {
+  width: 500px;
+  color: white;
+  background-color: rgb(14, 14, 213);
+  border-radius: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.driver-card img {
+  width: 80px;
+  border-radius: 40px;
+}
+
+.carousel-container {
+  width: fit-content;
+  padding: 8px;
+  background-color: rgb(208, 213, 211);
+  border: 2px solid black;
+}
+
+.carousel-container img {
+  border: 1px solid white;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.carousel-container button {
+  border-radius: 10px;
+  background-color: rgb(144, 200, 181);
 }

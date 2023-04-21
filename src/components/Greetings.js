@@ -8,7 +8,7 @@ function Greetings({lang, children}) {
     else if(lang === "fr") greating = "Bonjour";
     
     return (
-        <div className="card">
+        <div className="card user-card">
             <p>{greating} {children}</p>
         </div>
     )
